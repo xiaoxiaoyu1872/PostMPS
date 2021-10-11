@@ -15,6 +15,6 @@ The dependent vtk8.2 has been installed!
 To run the code, just do:  
 > bash run.sh  
 
-The input particle vtk file is located in test/watercrown/particle. Once the program has been executed over, the output triangle meshes ply file will be generated in test/watercrown/surface. This ply file can be opened through Paraview or Blender. To reproduce the rendering results in the paper, the given blender file can be used, which has configured the rendering environment. And the only thing need to do is giving the liquid material to the generated ply file.  
+The input particle vtk file is located in test/watercrown/particle. Once the program has been executed over, the output triangle meshes ply file will be generated in test/watercrown/surface. This ply file can be opened through Paraview or Blender. To reproduce the rendering figure in the paper, the given blender file can be used, which has configured the rendering environment and is located in test/watercrown. The only thing need to do is giving the liquid material to the generated ply file.  
 If you have any question about the code, contact me 11824048@zju.edu.cn.
 
