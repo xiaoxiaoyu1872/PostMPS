@@ -14,6 +14,8 @@ The code can be compiled on Ubuntu (GCC 6.3.0) and Ubuntu 16.04.1 LTS providing 
 ```
 The VTK has been installed!
 ```
+### **Run example**
 To run the code, just do:
 > cd PostMPS
 > bash run.sh
+The input particle vtk file is located in test/watercrown/particle. After the program has been executed over, the output generated triangle meshes ply file is located test/watercrown/surface. This ply file can be opened through Paraview or Blender. To reproduce the rendering results in the paper, the blender file can be used, which has configured the rendering environment. And the only thing need to do is give the liquid material to the generated ply file.
