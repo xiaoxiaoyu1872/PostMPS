@@ -9,7 +9,7 @@ VisFluid is a program for enhanced narrow band surface reconstruction designed f
 
 ### **Dependencies**
 The code can be compiled on Ubuntu (GCC 6.3.0) providing that CUDA (>=9.0) is installed. To run the executable(s), an NVIDIA GPU should be installed on the machine.  
-The dependent vtk8.2 has been installed!  
+The dependent vtk8.2 has been installed in this repository.
 
 ### **Run example**
 To run the code, just do:  
