@@ -13,7 +13,7 @@ The code can be compiled on Ubuntu (GCC 6.3.0) and Ubuntu 16.04.1 LTS providing 
 - [VTK8.2.0](https://vtk.org/)
 ```
 The VTK has been installed!
-```
+
 ### **Run example**
 To run the code, just do:
 > bash run.sh
