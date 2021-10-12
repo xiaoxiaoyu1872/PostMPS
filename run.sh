@@ -9,7 +9,6 @@ make install
 cd ../../
 rm -r VTK-8.2.0
 cd ..
-
 unzip lib.zip
 unzip test.zip
 source env.sh
