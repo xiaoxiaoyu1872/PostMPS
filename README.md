@@ -12,7 +12,7 @@ The code can be compiled on Ubuntu (GCC 6.3.0) with CUDA (>=9.0). To run the exe
 The dependent vtk8.2 has been given in this repository.  
 I notice that if the file is over 25Mb, it cannot be downloaded completely with clone. Before run the code, I recommend downloading the lib/VTK-8.2.0.zip and the test.zip compressed files separately to overwrite incomplete downloads (VTK-8.2.0.zip and test.zip).           
 
-### **Run example**
+### **Run test**
 To run the code, just do:  
 > bash run.sh  
 
