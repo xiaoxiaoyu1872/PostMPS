@@ -5,7 +5,7 @@
 </p>
 
 ## **About**
-VisFluid is a program used to reconstruct fluid surface from particle-based fluid solver and runs fully on NVIDIA GPU. This program bring high-quality visual effects to scientific and engineering computing, helping people to illustrate their simulation results. This repository provides source code to implement the algorithm presented in the paper [Enhanced narrow band surface reconstruction with anisotropic kernel].  
+VisFluid is a program used to reconstruct fluid surface from particle-based fluid solver and runs fully on NVIDIA GPU. This program brings high-quality visual effects to scientific and engineering computing, helping people to illustrate their simulation results. This repository provides source code to implement the algorithm presented in the paper [Enhanced narrow band surface reconstruction with anisotropic kernel].  
 
 ### **Dependencies**
 The code can be compiled on Ubuntu (GCC 6.3.0) with CUDA (>=9.0). To run the code, an NVIDIA GPU should be installed on the machine.  
