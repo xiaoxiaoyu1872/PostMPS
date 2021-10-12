@@ -1,7 +1,7 @@
 # **VisFluid** 
 
 <p align="center">
-    <img src="./paper/representative.png" width="50%"><br>
+    <img src="./paper/representative.png" width="40%"><br>
 </p>
 
 ## **About**
