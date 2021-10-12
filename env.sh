@@ -1,0 +1,7 @@
+#!/bin/bash
+cd $(dirname $BASH_SOURCE)
+CURRENT_PATH=`echo $(pwd)`
+# echo ${CURRENT_PATH}
+export VTK_DIR=${CURRENT_PATH}/lib/VTK
+export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$VTK_DIR/include
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$VTK_DIR/lib

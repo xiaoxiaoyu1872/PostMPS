@@ -1,0 +1,63 @@
+[Sim]
+Mass = 1
+ParticleSpacing = 0.1
+
+[Surface]
+SmoothingRadiusRatio = 4   
+LambdaForSmoothed = 0.0   
+IsoValue = 0.5          
+
+IsolateNumNeighbors = 8    
+MinNumNeighbors = 25       
+
+[Diffuse]
+MinKineticEnergyThreshold = 5.0.
+MaxKineticEnergyThreshold = 50.0.
+
+MinTrappedAirThreshold = 5.
+MaxTrappedAirThreshold = 20.
+
+MinWaveCrestsThreshold = 2.
+MaxWaveCrestsThreshold = 8.
+
+DiffuseTrappedAirMultiplier = 4000
+DiffuseWaveCrestsMultiplier = 4000
+
+BuoyancyControl = 0.8
+DragControl = 0.5
+
+TimeStep = 0.02
+
+LifefimeMultiplier = 10
+
+[Domain]
+SclarGridSizeScale = 2 
+
+// No need now for convenience. The size of the domain will be determined according to the boundary of particles
+// However, additional memory overhead will be introduced
+Min_x = -6
+Min_y = -6
+Min_z = -6
+Max_x = 26
+Max_y = 26
+Max_z = 31
+
+[Config]
+GpuId = 0
+Framefrom = 130
+Frameto = 130
+FrameStep = 1
+
+IsSurfaceReconstruct = true
+IsDiffuseGeneration = false
+
+FluidPath = ../test/watercrown/particle/
+FluidPrefix = PartFluid_
+
+SurfacePath = ../test/watercrown/surface/
+SurfacePrefix = PartSurface_
+
+DiffusePath = ../test/watercrown/foam/
+DiffusePrefix = PartDiffuse_
+
+
