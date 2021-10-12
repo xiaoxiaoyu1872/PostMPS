@@ -1,7 +1,7 @@
 # **VisFluid** 
 
 <p align="center">
-    <img src="./assets/david_pacthes.png" width="80%"><br>
+    <img src="./paper/representative.png" width="80%"><br>
 </p>
 
 ## **About**
