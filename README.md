@@ -11,6 +11,8 @@ VisFluid is a program used to reconstruct fluid surface from particle-based flui
 The code can be compiled on Ubuntu (GCC 6.3.0) with CUDA (>=9.0). To run the code, an NVIDIA GPU should be installed on the machine.  
 The dependent vtk8.2 has been given in this repository.  
 I notice that if the file is over 25Mb, it cannot be downloaded completely with clone. Before run the code, I recommend downloading the lib/VTK-8.2.0.zip and the test.zip compressed files separately to overwrite incomplete downloads (VTK-8.2.0.zip and test.zip).           
+The repo already exceeded its download quota for git lfs files. I put the files on Google Drive test.zip(https://drive.google.com/file/d/1HPbJa-htn2_YTEcl5P-dp-oTO-YOlhK2/view?usp=sharing) and VTK-8.2.0.zip (https://drive.google.com/file/d/1HPbJa-htn2_YTEcl5P-dp-oTO-YOlhK2/view?usp=sharing).
+
 
 ### **Run test**
 To run the code, just do:  
