@@ -18,6 +18,8 @@ To run the code, just do:
 > conda activate postmps  
 > mkdir build  
 > make && make post  
+
+
 The input particle vtk file is located in test/watercrown/particle. Once the program has been executed over, the output triangle meshes ply file will be generated in test/watercrown/surface. This ply file can be opened through Paraview (https://www.paraview.org/) or Blender (https://www.blender.org/). To reproduce the representative figure, the blender file has given, which has already configured the rendering environment and is located in test/watercrown. The only thing need to do is giving the liquid material to the generated ply file.  
 Other simulation results can be obtained from partcile-based fluid solver, such as DualSPH (https://dual.sphysics.org/) and GPUSPH (http://www.gpusph.org/).  
 If you have any question, contact me 11824048@zju.edu.cn.
