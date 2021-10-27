@@ -1,0 +1,5 @@
+name: postmps
+channels:
+  - conda-forge
+dependencies:
+  - vtk
